@@ -1,7 +1,3 @@
-Segue uma sugestão de **README.md** clara e objetiva para o seu projeto no GitHub:
-
----
-
 # 📚 Template para Relatórios Acadêmicos em LaTeX
 
 Este repositório contém um **modelo prático** em LaTeX para criação de relatórios acadêmicos, incluindo exemplos de utilização de figuras, tabelas e citações. É especialmente útil como base para relatórios de disciplinas em cursos superiores.
