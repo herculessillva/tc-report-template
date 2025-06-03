@@ -1,0 +1,74 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+
+% Pacotes utilizados
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{natbib}
+\usepackage{geometry}
+\geometry{left=3cm,right=2cm,top=2.5cm,bottom=2.5cm}
+
+\begin{document}
+
+% Título
+\title{Título do Relatório da Disciplina}
+\author{Nome do Aluno}
+\date{\today}
+
+\maketitle
+
+\begin{abstract}
+Este é um resumo breve do conteúdo do relatório. Deve conter a descrição sucinta dos objetivos, metodologia utilizada, resultados alcançados e as principais conclusões obtidas.
+\end{abstract}
+
+\section{Introdução}
+
+Nesta seção, o aluno deve apresentar uma breve introdução ao tema abordado, objetivos do relatório e justificativa da relevância do estudo.
+
+\section{Fundamentação Teórica}
+
+Aqui devem ser apresentados os conceitos teóricos essenciais, com citações bibliográficas apropriadas. Como exemplo, segundo \citet{bishop2006pattern}, a fundamentação teórica é crucial para o desenvolvimento de pesquisas acadêmicas.
+
+\section{Metodologia}
+
+A metodologia utilizada deve ser descrita de forma detalhada. Pode-se incluir um diagrama ilustrativo (Figura \ref{fig:metodo}).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{figuras/fig1.png}
+    \caption{Diagrama esquemático da metodologia utilizada.}
+    \label{fig:metodo}
+\end{figure}
+
+\section{Resultados e Discussões}
+
+Nesta seção, os principais resultados devem ser apresentados e discutidos. Exemplos incluem gráficos, tabelas ou descrições qualitativas dos resultados obtidos. Um exemplo de tabela está mostrado na Tabela \ref{tab:resultados}.
+
+\begin{table}[H]
+    \centering
+    \caption{Exemplo de tabela com resultados obtidos.}
+    \label{tab:resultados}
+    \begin{tabular}{@{}lccc@{}}
+        \toprule
+        \textbf{Amostra} & \textbf{Média} & \textbf{Desvio Padrão} & \textbf{Observações} \\
+        \midrule
+        A & 20 & 2,5 & 30 \\
+        B & 22 & 3,1 & 28 \\
+        C & 19 & 1,8 & 32 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\section{Conclusões}
+
+Nesta seção, o aluno deve apresentar as principais conclusões obtidas a partir da análise dos resultados.
+
+\bibliographystyle{apalike}
+\bibliography{referencias}
+
+\end{document}
